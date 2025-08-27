@@ -8,7 +8,7 @@ local function isAdmin(source)
         end
 	end
 	
-	if IsPlayerAceAllowed(source, "lance.eas") then
+	if IsPlayerAceAllowed(source, "lance.eas", "group.admin") then
 		allowed = true
 	else
 		print("NOT ALLOWED TO USE EAS")
@@ -33,3 +33,34 @@ RegisterCommand("eas-lsfd", function(source, args, rawCommand)
 	end
 end)
 
+RegisterCommand("eas-sae", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "San Andreas Goverment", msg)
+	end
+end)
+
+RegisterCommand("eas-sang", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "San Andreas National Guard", msg)
+	end
+end)
+
+RegisterCommand("eas-sasp", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "San Andreas State Patrol", msg)
+	end
+end)
+
+RegisterCommand("eas-scp", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "SCP Foundation", msg)
+	end
+end)
