@@ -20,7 +20,7 @@ To use, simply type "/eas-lspd", "/eas-lsfd", "/eas-sae", "/eas-sang", "/eas-sas
 /eas-lspd Tornado warning, seek shelter immediately !
 ```
 VIDEO DEMO : https://streamable.com/4ocmp2
-![image](https://user-images.githubusercontent.com/4887819/126018607-77e2d0f2-829a-4d95-b0f8-88e32e2f78b5.png)
+![image]([https://user-images.githubusercontent.com/4887819/126018607-77e2d0f2-829a-4d95-b0f8-88e32e2f78b5.png](https://raw.githubusercontent.com/S1l3ntStr1ke87/qb-eas/refs/heads/master/.github/FiveM_GTAProcess%202025-08-27%2000-43-33.png))
 
 
 ```
@@ -30,3 +30,4 @@ CHANGELOG
 ```
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKurosar%2Fqb-eas&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
+
