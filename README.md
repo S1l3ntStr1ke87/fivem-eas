@@ -19,7 +19,7 @@ To use, simply type "/eas-lspd", "/eas-lsfd", "/eas-sae", "/eas-sang", "/eas-sas
 "/eas-bcso", "/eas-bcfd" in chat, followed by your message, example : 
 /eas-lspd Tornado warning, seek shelter immediately !
 ```
-VIDEO DEMO : https://streamable.com/4ocmp2
+VIDEO DEMO : https://youtu.be/6GcNiHfYTzA
 ![image](https://raw.githubusercontent.com/S1l3ntStr1ke87/qb-eas/refs/heads/master/.github/FiveM_GTAProcess%202025-08-27%2000-43-33.png)
 
 
@@ -29,5 +29,6 @@ CHANGELOG
 2021-07-17 Initial commit (Repo this is forked from)
 ```
   
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKurosar%2Fqb-eas&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
+
+
 
