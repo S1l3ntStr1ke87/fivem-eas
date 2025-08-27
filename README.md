@@ -15,7 +15,7 @@ INSTALLATION
 
 ```
 USAGE
-To use, simply type /eas-lspd or /eas-lsfd in chat, followed by your message, example : 
+To use, simply type "/eas-lspd", "/eas-lsfd", "/eas-sae", "/eas-sang", "/eas-sasp", "/eas-scp", "/eas-bcso", "/eas-bcfd" in chat, followed by your message, example : 
 /eas-lspd Tornado warning, seek shelter immediately !
 ```
 VIDEO DEMO : https://streamable.com/4ocmp2
