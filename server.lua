@@ -64,3 +64,19 @@ RegisterCommand("eas-scp", function(source, args, rawCommand)
 		TriggerClientEvent("SendAlert", -1, "SCP Foundation", msg)
 	end
 end)
+
+RegisterCommand("eas-bcso", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "Blaine County Sheriffs Office", msg)
+	end
+end)
+
+RegisterCommand("eas-bcfd", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "Blaine County Fire Department", msg)
+	end
+end)
