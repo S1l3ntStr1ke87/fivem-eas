@@ -33,7 +33,7 @@ RegisterCommand("eas-lsfd", function(source, args, rawCommand)
 	end
 end)
 
-RegisterCommand("eas-sae", function(source, args, rawCommand)
+RegisterCommand("eas-sag", function(source, args, rawCommand)
 	if (isAdmin(source)) then
 		CancelEvent()
 		local msg = table.concat(args, " ")
