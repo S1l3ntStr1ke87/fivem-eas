@@ -15,7 +15,7 @@ INSTALLATION
 
 ```
 USAGE
-To use, simply type "/eas-lspd", "/eas-lsfd", "/eas-sae", "/eas-sang", "/eas-sasp", "/eas-scp",
+To use, simply type "/eas-lspd", "/eas-lsfd", "/eas-sag", "/eas-sang", "/eas-sasp", "/eas-scp",
 "/eas-bcso", "/eas-bcfd" in chat, followed by your message, example : 
 /eas-lspd Tornado warning, seek shelter immediately !
 ```
@@ -29,6 +29,7 @@ CHANGELOG
 2021-07-17 Initial commit (Repo this is forked from)
 ```
   
+
 
 
 
