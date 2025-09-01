@@ -86,11 +86,11 @@ RegisterCommand("eas-usss", function(source, args, rawCommand)
 		CancelEvent()
 		local msg = table.concat(args, " ")
 		TriggerClientEvent("SendAlert", -1, "United States Secret Service", msg)
-	end
+	end)
 
 RegisterCommand("eas-usg", function(source, args, rawCommand)
 	if (isAdmin(source)) then
 		CancelEvent()
 		local msg = table.concat(args, " ")
 		TriggerClientEvent("SendAlert", -1, "United States Goverment", msg)
-	end
+	end)
