@@ -33,11 +33,11 @@ RegisterCommand("eas-lsfd", function(source, args, rawCommand)
 	end
 end)
 
-RegisterCommand("eas-sag", function(source, args, rawCommand)
+RegisterCommand("eas-sasg", function(source, args, rawCommand)
 	if (isAdmin(source)) then
 		CancelEvent()
 		local msg = table.concat(args, " ")
-		TriggerClientEvent("SendAlert", -1, "San Andreas Goverment", msg)
+		TriggerClientEvent("SendAlert", -1, "San Andreas State Goverment", msg)
 	end
 end)
 
@@ -80,3 +80,17 @@ RegisterCommand("eas-bcfd", function(source, args, rawCommand)
 		TriggerClientEvent("SendAlert", -1, "Blaine County Fire Department", msg)
 	end
 end)
+
+RegisterCommand("eas-usss", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "United States Secret Service", msg)
+	end
+
+RegisterCommand("eas-usg", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "United States Goverment", msg)
+	end
