@@ -8,7 +8,7 @@ local function isAdmin(source)
         end
 	end
 	
-	if IsPlayerAceAllowed(source, "lance.eas", "group.admin") then
+	if IsPlayerAceAllowed(source, "lance.eas", "group.admin", "group.staff") then
 		allowed = true
 	else
 		print("NOT ALLOWED TO USE EAS")
@@ -81,16 +81,18 @@ RegisterCommand("eas-bcfd", function(source, args, rawCommand)
 	end
 end)
 
-RegisterCommand("eas-usss", function(source, args, rawCommand)
-	if (isAdmin(source)) then
-		CancelEvent()
-		local msg = table.concat(args, " ")
-		TriggerClientEvent("SendAlert", -1, "United States Secret Service", msg)
-	end)
-
 RegisterCommand("eas-usg", function(source, args, rawCommand)
 	if (isAdmin(source)) then
 		CancelEvent()
 		local msg = table.concat(args, " ")
 		TriggerClientEvent("SendAlert", -1, "United States Goverment", msg)
-	end)
+	end
+end)
+
+RegisterCommand("eas-usss", function(source, args, rawCommand)
+	if (isAdmin(source)) then
+		CancelEvent()
+		local msg = table.concat(args, " ")
+		TriggerClientEvent("SendAlert", -1, "United States Secret Service", msg)
+	end
+end)
