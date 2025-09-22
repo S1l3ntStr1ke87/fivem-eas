@@ -1,4 +1,4 @@
-# eas-fivem ported to QB (qb-eas)
+# Fivem-EAS (Compatiable on QBox, QBCore, ESX)
 The Emergency Alert System in FiveM.  
 
 Fixed and reworked by Kurosar in 2021.
@@ -29,6 +29,7 @@ CHANGELOG
 2021-07-17 Initial commit (Repo this is forked from)
 ```
   
+
 
 
 
