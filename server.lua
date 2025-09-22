@@ -8,7 +8,7 @@ local function isAdmin(source)
         end
 	end
 	
-	if IsPlayerAceAllowed(source, "lance.eas", "group.admin") then
+	if IsPlayerAceAllowed(source, "str1k3.eas", "group.admin") then
 		allowed = true
 	else
 		print("NOT ALLOWED TO USE EAS")
