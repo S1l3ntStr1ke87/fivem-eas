@@ -9,8 +9,8 @@ Fixed upon more by str1k3r in 2025.
 INSTALLATION
 - Drag and drop the folder fivem-eas to your server's resource folder
 - Add "ensure fivem-eas" to your server.cfg
-- Add "add_ace group.admin lance.eas allow"
-- Add lance.eas to admin. Example: add_principal identifier.any:number group.admin lance.eas
+- Add "add_ace group.admin str1ke.eas allow"
+- Add str1ke.eas to admin. Example: add_principal identifier.any:number group.admin lance.eas
 ```
 
 ```
@@ -29,6 +29,7 @@ CHANGELOG
 2021-07-17 Initial commit (Repo this is forked from)
 ```
   
+
 
 
 
