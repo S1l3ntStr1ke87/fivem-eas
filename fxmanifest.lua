@@ -1,6 +1,8 @@
 resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
 
-description "qb-eas"
+author 'Str1k3r'
+description 'fivem-eas, https://fivem.str1k3r.site'
+version '1.0.0'
 fx_version 'cerulean'
 games { 'gta5' }
 
