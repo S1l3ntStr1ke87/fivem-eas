@@ -6,9 +6,8 @@ Config.EAS = {
     },
     groups = {
         'admin',
-        'staff',
     },
     ace = {
-        'vrp.eas',
+        'fivem.eas',
     }
 }
